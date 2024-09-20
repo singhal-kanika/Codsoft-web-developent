@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #3b3635;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  #hero {
+    background-image: url('dandiya.avif');
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 280px 250px;
+  }
+  
+ /* #about, #events, #gallery {
+    padding: 50px 20px;
+    text-align: center;
+  }*/
+  /* About Section */
+#about {
+  background-color: #f7f2e7;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+#about h2 {
+  color: #121315;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-content img {
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .about-text {
+      text-align: center;
+  }
+}
+
+  .events {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.events h2 {
+    color: #130800;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.event-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #d9a3a31a;
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-time {
+    flex: 1;
+    color: #b7afa7;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.event-info {
+    flex: 3;
+    text-align: left;
+}
+
+.event-info h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.event-info p {
+    color: #666;
+}
+
+@media screen and (max-width: 768px) {
+    .event-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .event-time {
+        margin-bottom: 1rem;
+    }
+
+    .event-info h3 {
+        font-size: 1.3rem;
+    }
+
+    .event-info p {
+        font-size: 1rem;
+    }
+}
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
